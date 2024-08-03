@@ -1,0 +1,121 @@
+article h2 {
+  text-align: center;
+  font-size: 6vh;
+}
+
+article h2::first-line {
+  color: #58af31;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafo,
+ul {
+  font-family: 'Montserrat', sans-serif;
+  color: #355E3B;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-left: 18%;
+  margin-right: 18%;
+  text-align: center;
+}
+
+li img {
+
+  border-radius: 12px;
+}
+
+
+
+.uno {
+  width: 35%;
+  height: auto;
+  margin: 10px;
+}
+
+
+ul {
+  list-style-image: url("imagenes/viñeta.svg");
+}
+
+
+figure {
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  grid-gap: 8vh;
+}
+
+
+figure img {
+  width: 100%;
+  height: auto;
+
+}
+
+
+/* Media queries para tablets (768px - 1023px) */
+@media (max-width: 1023px) {
+  article h2 {
+    font-size: 5vh;
+    /* Ajusta el tamaño del título */
+  }
+
+  .parrafo,
+  ul {
+    font-size: 16px;
+    /* Ajusta el tamaño del texto */
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .uno {
+    width: 45%;
+    /* Ajusta el ancho de las imágenes en la sección "Experiencia" */
+    margin: 5px;
+  }
+
+
+}
+
+/* Media queries para móviles (hasta 767px) */
+@media (max-width: 767px) {
+  article h2 {
+    font-size: 4vh;
+    /* Ajusta el tamaño del título */
+  }
+
+  .parrafo,
+  ul {
+    font-size: 14px;
+    /* Ajusta el tamaño del texto */
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .uno {
+    width: 90%;
+    /* Ajusta el ancho de las imágenes en la sección "Experiencia" */
+    margin: 5px auto;
+    /* Centra las imágenes */
+  }
+
+  li {
+    text-align: left;
+    /* Alinea el texto de la lista a la izquierda */
+  }
+
+  figure {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    /* Ajusta la grilla de clientes */
+    grid-gap: 2vh;
+  }
+
+  .diseño {
+    /* Ajusta el ancho de la imagen de Diseño */
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    /* Centra la imagen */
+  }
+}

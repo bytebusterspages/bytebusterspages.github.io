@@ -1,0 +1,105 @@
+.redes,
+.horario {
+  width: 50%;
+  text-align: center;
+}
+
+
+.redes img {
+  width: 25%;
+  height: auto;
+  margin: 20px;
+  transition: transform 3s;
+
+}
+
+.redes img:hover {
+  transform: scale(1.2);
+}
+
+form,
+.ubicacion {
+
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 14%;
+  text-align: center;
+  transition: box-shadow 2s;
+
+}
+
+form:hover,
+.ubicacion:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.formulario {
+  width: 400px;
+  padding: 20px;
+
+  border-radius: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+/* Estilo del botón de envío */
+button[type="submit"] {
+  background-color: #58af31;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #355E3B;
+}
+
+article {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+iframe {
+  border-radius: 10px;
+
+}
+
+
+.horario {
+  text-align: center;
+
+}
+
+
+
+article h2 {
+  text-align: center;
+  font-size: 6vh;
+}
+
+article h2::first-line {
+  color: #58af31;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.parrafo {
+  font-family: 'Montserrat', sans-serif;
+  color: #355E3B;
+  font-size: 18px;
+  line-height: 1.6;
+}
