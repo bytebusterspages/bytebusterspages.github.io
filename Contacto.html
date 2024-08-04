@@ -142,6 +142,7 @@
     <br>
 
 
+    <a href="mailto:ecconsas@gmail.com" id="click"></a>
 
 
 
@@ -152,11 +153,22 @@
 
     <script src="General.js" defer></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
     <script>
 
-        const $formulario = document.querySelector("#form")
+        const $form = document.querySelector('#form')
+        const $buttonMailto = document.querySelector('#click')
+    
+        $form.addEventListener('submit', handleSubmit)
+    
+        function handleSubmit(event) {
+          event.preventDefault()
+          const form = new FormData(this)
+          $buttonMailto.setAttribute('href', `mailto:ecconsas@gmail.com?subject=NOMBRE: ${form.get('nombre')}  CORREO: ${form.get('correo')}&body=${form.get('mensaje')}`)
+          $buttonMailto.click()
+        }
 
-    </script>
+      </script>
    
 </body>
 
