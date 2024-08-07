@@ -115,30 +115,26 @@ border: 1.5px solid rgba(255, 255, 255, 0.15);
 
 .Line {
     border-bottom: solid #02750b;
-
 }
 
 .sidebar .dropdown {
     position: relative;
-
 }
 
 .sidebar .dropdown-content {
     display: none;
     position: absolute;
     left: 0;
-    
     top: 100%;
-    
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
 
 
 .dropdown-content {
-    opacity: 90%;
+    border-radius: 10%;
 }
 
 .sidebar .dropdown-content a {
@@ -149,7 +145,6 @@ border: 1.5px solid rgba(255, 255, 255, 0.15);
 
 .sidebar .dropdown-content a:hover {
     color: #347f06;
-    background-color: #b3d7a3;
 }
 
 .sidebar .dropdown:hover .dropdown-content {
@@ -331,14 +326,6 @@ border: 1.5px solid rgba(255, 255, 255, 0.15);
 
 }
 
-
-
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .header {
-        height: 50vh;
-    }
-}
 
 
 
