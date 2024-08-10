@@ -43,6 +43,8 @@ article h2 {
     width: auto;
   }
 
+  
+
   article {
     display: grid;
     place-items: center;

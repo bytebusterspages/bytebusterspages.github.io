@@ -5,12 +5,8 @@
 }
 
 
-#click {
-  opacity: 0%;
-}
-
 .redes img {
-  width: 25%;
+  width: 23%;
   height: auto;
   margin: 20px;
   transition: transform 3s;
@@ -45,6 +41,10 @@ form:hover,
   border-radius: 5px;
 }
 
+#click {
+  opacity: 0%;
+
+}
 
 input[type="text"],
 input[type="email"],
