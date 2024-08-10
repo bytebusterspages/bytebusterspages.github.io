@@ -159,6 +159,11 @@ border: 1.5px solid rgba(255, 255, 255, 0.15);
 
 
 @media (min-width: 0px) and (max-width: 1024px) {
+
+    .enlaceservicios{
+            pointer-events: none; 
+    }
+    
     .sidebar .dropdown-content {
         width: 100%;
     }
