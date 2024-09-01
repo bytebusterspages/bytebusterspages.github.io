@@ -112,10 +112,9 @@ figure img {
   }
 
   .diseño {
-    /* Ajusta el ancho de la imagen de Diseño */
-    width: 90%;
-    height: auto;
-    margin: 0 auto;
-    /* Centra la imagen */
+    margin-left: 8vh;
+
+    width: auto;
+    height: 164px;
   }
 }
