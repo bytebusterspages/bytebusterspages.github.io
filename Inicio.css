@@ -1,0 +1,43 @@
+article h2 {
+    text-align: center;
+    font-size: 6vh;
+  }
+  
+  article h2::first-line {
+    color: #009CC4;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .parrafo,
+  ul {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-left: 18%;
+    margin-right: 18%;
+    text-align: center;
+  }
+  
+  li img {
+    transition-duration: 2s;
+    border-radius: 12px;
+  }
+  
+  li img:hover {
+    box-shadow: 5px 5px 10px rgba(26, 153, 3, 0.519);
+    border-radius: 15px;
+    transform: scale(1.02);
+  }
+  
+  .uno {
+    width: 35%;
+    height: auto;
+    margin: 10px;
+  }
+  
+  
+  ul {
+    list-style-image: url("imagenes/viñeta.svg");
+  }
